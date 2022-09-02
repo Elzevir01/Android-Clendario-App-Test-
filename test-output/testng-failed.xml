@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="ANDROID(failed)">
+    <parameter name="nodeUrl" value="http://localhost:4723/wd/hub"/>
+    <classes>
+      <class name="com.calendario.CalendarioTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="buildDriver"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.calendario.CalendarioTest -->
+    </classes>
+  </test> <!-- ANDROID(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
