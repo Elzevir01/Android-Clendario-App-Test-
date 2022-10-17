@@ -1,0 +1,1 @@
+Proyecto de Automation sobre Appium-Android en la aplicacion basica de Calendario, es una prueba simple de los gestos swipe (hacia arriba, abajo, izquierda y derecha) sobre la aplicación, hasta el momento solo utilizaba los selectores Selenium en pruebas en Android y necesitaba saber como funcionaban los gestos de deslizamiento.
