@@ -41,18 +41,11 @@ public class BrowserFactory {
 			try {
 					UiAutomator2Options options = new UiAutomator2Options()
 						.setPlatformName("Android")
-						/*
-						.setDeviceName("SM-J71MN")//"emulator-5554"//"SM-J71MN"
-						.setUdid("52032936c0e08321")
-						.setPlatformVersion("8.1.0")//"8.1.0"//11.0
-						*/
 						.setDeviceName("emulator-5554")
 						.setUdid("emulator-5554")
 						.setPlatformVersion("11.0")
-						
 						.setAdbExecTimeout(Duration.ofSeconds(150))
 						.setAutomationName("UiAutomator2")
-						////adb logcat > log.txt /////
 						.setAppPackage("com.samsung.android.calendar")
 						.setAppActivity("com.android.calendar.AllInOneActivity")
 						.setNewCommandTimeout(Duration.ofSeconds(60))
